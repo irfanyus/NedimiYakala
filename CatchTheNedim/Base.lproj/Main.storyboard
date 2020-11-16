@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatchTheNedim" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nedim" translatesAutoresizingMaskIntoConstraints="NO" id="FTh-7B-iaN">
+                                <rect key="frame" x="30" y="201" width="97" height="141"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="141" id="lb0-Uk-clP"/>
+                                    <constraint firstAttribute="width" constant="97" id="vGl-T4-hsf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nedim" translatesAutoresizingMaskIntoConstraints="NO" id="Am1-ei-Oof">
+                                <rect key="frame" x="155" y="201" width="97" height="141"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="d34-DV-Ylk"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nedim" translatesAutoresizingMaskIntoConstraints="NO" id="OKM-9v-Syy">
+                                <rect key="frame" x="278" y="201" width="97" height="141"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nedim" translatesAutoresizingMaskIntoConstraints="NO" id="pHk-vu-iNS">
+                                <rect key="frame" x="35" y="359" width="97" height="141"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="141" id="A9Y-QV-0QP"/>
+                                    <constraint firstAttribute="width" constant="97" id="hXf-3i-D1f"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nedim" translatesAutoresizingMaskIntoConstraints="NO" id="oqR-Ef-iEo">
+                                <rect key="frame" x="160" y="359" width="97" height="141"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="6fY-B0-dJf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nedim" translatesAutoresizingMaskIntoConstraints="NO" id="koJ-HU-s58">
+                                <rect key="frame" x="283" y="359" width="97" height="141"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nedim" translatesAutoresizingMaskIntoConstraints="NO" id="ciG-eH-EWt">
+                                <rect key="frame" x="35" y="528" width="97" height="141"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nedim" translatesAutoresizingMaskIntoConstraints="NO" id="dCU-90-IEL">
+                                <rect key="frame" x="160" y="528" width="97" height="141"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nedim" translatesAutoresizingMaskIntoConstraints="NO" id="Cnv-v9-df4">
+                                <rect key="frame" x="283" y="528" width="97" height="141"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="92O-Rt-FxR">
+                                <rect key="frame" x="90" y="44" width="226" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="Nwz-JB-hkR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwv-bw-iiw">
+                                <rect key="frame" x="100" y="116" width="222" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="yRL-8d-ABw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVL-lq-wPk">
+                                <rect key="frame" x="145" y="749" width="137" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="koJ-HU-s58" firstAttribute="leading" secondItem="Cnv-v9-df4" secondAttribute="leading" id="0UT-Pu-cSp"/>
+                            <constraint firstItem="pHk-vu-iNS" firstAttribute="trailing" secondItem="ciG-eH-EWt" secondAttribute="trailing" id="0fz-dy-4O9"/>
+                            <constraint firstItem="pHk-vu-iNS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="1Rn-Si-zr6"/>
+                            <constraint firstItem="Am1-ei-Oof" firstAttribute="leading" secondItem="FTh-7B-iaN" secondAttribute="trailing" constant="28" id="3DF-PA-FdV"/>
+                            <constraint firstItem="pHk-vu-iNS" firstAttribute="bottom" secondItem="oqR-Ef-iEo" secondAttribute="bottom" id="5Q5-eI-Uio"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="koJ-HU-s58" secondAttribute="trailing" constant="34" id="7Bj-7l-SyT"/>
+                            <constraint firstItem="oqR-Ef-iEo" firstAttribute="bottom" secondItem="koJ-HU-s58" secondAttribute="bottom" id="7Oq-Yn-cqE"/>
+                            <constraint firstItem="dCU-90-IEL" firstAttribute="top" secondItem="Cnv-v9-df4" secondAttribute="top" id="9hx-yN-hpK"/>
+                            <constraint firstItem="Nwv-bw-iiw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="BN3-4J-vjS"/>
+                            <constraint firstItem="ciG-eH-EWt" firstAttribute="bottom" secondItem="dCU-90-IEL" secondAttribute="bottom" id="CNv-0U-EzB"/>
+                            <constraint firstItem="FTh-7B-iaN" firstAttribute="bottom" secondItem="Am1-ei-Oof" secondAttribute="bottom" id="Dr3-TY-3xz"/>
+                            <constraint firstItem="koJ-HU-s58" firstAttribute="leading" secondItem="oqR-Ef-iEo" secondAttribute="trailing" constant="26" id="ESV-hX-ynJ"/>
+                            <constraint firstItem="Am1-ei-Oof" firstAttribute="bottom" secondItem="OKM-9v-Syy" secondAttribute="bottom" id="EZH-ux-SNg"/>
+                            <constraint firstItem="koJ-HU-s58" firstAttribute="trailing" secondItem="Cnv-v9-df4" secondAttribute="trailing" id="H7u-Ld-8O1"/>
+                            <constraint firstItem="fVL-lq-wPk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="145" id="O8X-yT-cO3"/>
+                            <constraint firstItem="oqR-Ef-iEo" firstAttribute="leading" secondItem="pHk-vu-iNS" secondAttribute="trailing" constant="28" id="P4K-Mi-4nR"/>
+                            <constraint firstItem="oqR-Ef-iEo" firstAttribute="leading" secondItem="dCU-90-IEL" secondAttribute="leading" id="QuG-3o-cP0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ciG-eH-EWt" secondAttribute="bottom" constant="193" id="SXH-Ox-Vn3"/>
+                            <constraint firstItem="92O-Rt-FxR" firstAttribute="centerX" secondItem="Am1-ei-Oof" secondAttribute="centerX" id="UXW-Qm-wza"/>
+                            <constraint firstItem="fVL-lq-wPk" firstAttribute="top" secondItem="dCU-90-IEL" secondAttribute="bottom" constant="80" id="Wua-G4-Tb1"/>
+                            <constraint firstItem="FTh-7B-iaN" firstAttribute="top" secondItem="Nwv-bw-iiw" secondAttribute="bottom" constant="49" id="Xug-wS-aAr"/>
+                            <constraint firstItem="oqR-Ef-iEo" firstAttribute="trailing" secondItem="dCU-90-IEL" secondAttribute="trailing" id="Ym6-Hx-nFm"/>
+                            <constraint firstItem="dCU-90-IEL" firstAttribute="bottom" secondItem="Cnv-v9-df4" secondAttribute="bottom" id="bdm-X2-iEB"/>
+                            <constraint firstItem="ciG-eH-EWt" firstAttribute="top" secondItem="pHk-vu-iNS" secondAttribute="bottom" constant="28" id="cDz-yT-vgk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OKM-9v-Syy" secondAttribute="trailing" constant="39" id="iVf-u9-IVJ"/>
+                            <constraint firstItem="ciG-eH-EWt" firstAttribute="top" secondItem="dCU-90-IEL" secondAttribute="top" id="jKE-z4-1vT"/>
+                            <constraint firstItem="OKM-9v-Syy" firstAttribute="leading" secondItem="Am1-ei-Oof" secondAttribute="trailing" constant="26" id="lUe-Sw-Fkz"/>
+                            <constraint firstItem="pHk-vu-iNS" firstAttribute="top" secondItem="FTh-7B-iaN" secondAttribute="bottom" constant="17" id="m7L-Uh-Ufh"/>
+                            <constraint firstItem="FTh-7B-iaN" firstAttribute="top" secondItem="Am1-ei-Oof" secondAttribute="top" id="ncX-M0-6ao"/>
+                            <constraint firstItem="pHk-vu-iNS" firstAttribute="leading" secondItem="ciG-eH-EWt" secondAttribute="leading" id="oUy-ZZ-Lxn"/>
+                            <constraint firstItem="Am1-ei-Oof" firstAttribute="top" secondItem="OKM-9v-Syy" secondAttribute="top" id="qHE-DZ-lcP"/>
+                            <constraint firstItem="pHk-vu-iNS" firstAttribute="top" secondItem="oqR-Ef-iEo" secondAttribute="top" id="rb9-SW-jvY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nwv-bw-iiw" secondAttribute="trailing" constant="92" id="rgr-go-VJ8"/>
+                            <constraint firstItem="92O-Rt-FxR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="usV-J0-4yz"/>
+                            <constraint firstItem="oqR-Ef-iEo" firstAttribute="top" secondItem="koJ-HU-s58" secondAttribute="top" id="wIC-JX-v7S"/>
+                            <constraint firstItem="92O-Rt-FxR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="wUq-b6-bzg"/>
+                            <constraint firstItem="Nwv-bw-iiw" firstAttribute="top" secondItem="92O-Rt-FxR" secondAttribute="bottom" constant="8" id="ygL-yN-UVH"/>
+                            <constraint firstItem="FTh-7B-iaN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="ypx-6x-dbV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="highscoreLabel" destination="fVL-lq-wPk" id="pph-Eh-tV3"/>
+                        <outlet property="nedim1" destination="FTh-7B-iaN" id="EWR-LP-G0r"/>
+                        <outlet property="nedim2" destination="Am1-ei-Oof" id="9WO-sc-aWF"/>
+                        <outlet property="nedim3" destination="OKM-9v-Syy" id="v4D-tZ-AVb"/>
+                        <outlet property="nedim4" destination="pHk-vu-iNS" id="kM6-dM-W0c"/>
+                        <outlet property="nedim5" destination="oqR-Ef-iEo" id="niT-mC-Fke"/>
+                        <outlet property="nedim6" destination="koJ-HU-s58" id="5hz-1L-WD7"/>
+                        <outlet property="nedim7" destination="ciG-eH-EWt" id="g6G-qm-Cd7"/>
+                        <outlet property="nedim8" destination="dCU-90-IEL" id="IZV-JX-SuR"/>
+                        <outlet property="nedim9" destination="Cnv-v9-df4" id="Get-6C-7Kn"/>
+                        <outlet property="scoreLabel" destination="Nwv-bw-iiw" id="4zE-Td-Z8G"/>
+                        <outlet property="timeLabel" destination="92O-Rt-FxR" id="tfZ-gr-w5X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="62.946428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nedim" width="247" height="321"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
